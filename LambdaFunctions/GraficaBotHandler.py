@@ -78,8 +78,8 @@ def graficar(categoria, estado, informacion):
 
 # Creating Session With Boto3.
 session = boto3.Session(
-    aws_access_key_id='AKIARXWBOEHYDWOTTUYO',
-    aws_secret_access_key='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')
+    aws_access_key_id='',
+    aws_secret_access_key='')
 
 # Creating S3 Resource From the Session.
 s3 = session.resource('s3')
